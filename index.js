@@ -20,4 +20,5 @@ const calculadora = {
     addNumber:function (number){
     document.getElementById("display").value = number;
     },  
+    
 }
