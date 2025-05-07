@@ -1,14 +1,13 @@
 # Proyecto Calculadora 
-## Descripcion
-- Proyecto para aprender a hacer una calculadora funcional, aprender a programar funciones basicas de una calculadora con JS.
-- Sumar. 
-- Restar. 
-- Dividir.
-- Cuenta con la funcion de borrar 
-### Tecnologias
+## Descripción
+- Proyecto de calculadora funcional, aprender a programar funciones basicas de una calculadora dando indicaciones de como usarla.
+- Funciones Basicas(Sumar-Restar-Multiplicar-Dividir)
+- Funcion borrar
+- Cuenta con validaciones de cero y reconocimiento de errores
+### Tecnologies
 - Html
 - Css
 - JavaScript
 ### Autores
 - Thelp SAS
-- Samuel Cruz
+- SamulDev15
