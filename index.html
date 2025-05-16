@@ -1,45 +1,45 @@
-<DOCTYPE>
-
-  <html>
+<!DOCTYPE html>
 
   <head>
     <title>Mi Calculadora</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="./index.css">
   </head>
 
   <body>
 
-    <h2>Calculadora Basica</h2>
+    <div class =calculadora>
 
+      <input id="display" type="text" placeholder="Digite El Primer Numero"readonly>
 
-    <div id="calculatorHead">
+    <div class = "botones"> 
 
-      <input id="display" type="text" placeholder="Digite El Primer Numero">
+      <button onclick="borrar()">CE</button>
+      <button onclick="borrarUltimo()"> ← </button>
+      <button onclick="calculadoraAgregar('*')">*</button><br>
+     
+     
+      <button onclick="calculadoraAgregar(7)">7</button> 
+      <button onclick="calculadoraAgregar(8)">8</button>
+      <button onclick="calculadoraAgregar(9)">9</button>
+      <button onclick="calculadoraAgregar('-')">-</button><br>
+         
+      <button onclick="calculadoraAgregar(4)">4</button>
+      <button onclick="calculadoraAgregar(5)">5</button>
+      <button onclick="calculadoraAgregar(6)">6</button>
+      <button onclick="calculadoraAgregar('+')">+</button><br>
+
+      <button onclick="calculadoraAgregar(1)">1</button>
+      <button onclick="calculadoraAgregar(2)">2</button>
+      <button onclick="calculadoraAgregar(3)">3</button>
+      <button onclick="calculadoraAgregar('/')">/</button><br>
+         
+      <button onclick="calculadoraAgregar(0)">0</button>
+      <button onclick="calculadoraAgregar('.')"> . </button>
+      <button onclick="calcular()">=</button>
 
     </div>
-
-    <div>
-
-      <button onclick="calculadora.addNumber(0)">0</button>
-      <button onclick="calculadora.addNumber(1)">1</button>
-      <button onclick="calculadora.addNumber(2)">2</button>
-      <button onclick="calculadora.addNumber(3)">3</button>
-      <button onclick="calculadora.addNumber(4)">4</button>
-      <button onclick="calculadora.addNumber(5)">5</button>
-      <button onclick="calculadora.addNumber(6)">6</button>
-      <button onclick="calculadora.addNumber(7)">7</button>
-      <button onclick="calculadora.addNumber(8)">8</button>
-      <button onclick="calculadora.addNumber(9)">9</button>
-      <button onclick="calculadora.addNumber.sumar('+')">+</button>
-      <button onclick="calculadora.addNumber.restar('-')">-</button>
-      <button onclick="calculadora.addNumber.multiplicar('*')">*</button>
-      <button onclick="calculadora.addNumber('/')">/</button>
-      <button onclick="calculadora.addNumber('=')">=</button>
-      <!-- <button onclick="calculadora.()">~</button> -->
-      <button onclick="calculadora.deleteAll()">CE</button>
-
-    </div>
-
+  </div>
 
   </body>
-
-  </html>
+   </html>

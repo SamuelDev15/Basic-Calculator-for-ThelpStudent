@@ -1,5 +1,18 @@
+.calculadora {
+  border-style: solid; color:  rgb(27, 167, 136); 
+  width: 370px;
+  background-color:rgb(180, 111, 54);
+  margin:auto;
+}
 #display {
     display: flex;
-    border: 3px solid blue;
-    color:cornflowerblue
+    width: 260px; 
+    padding: 25px; 
+    margin: 25px;
+    border: 4px solid rgb(27, 167, 136);
 }
+button { 
+    height: 50px;
+    width: 80px;
+    margin: 4px;
+  }
