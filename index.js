@@ -1,8 +1,8 @@
 
 const calculadora = {
-  type : "casio",
-  modelo : "2010",
-  color : "rgb(180, 111, 54)"
+  type: "casio",
+  modelo: "2010",
+  color: "rgb(180, 111, 54)"
 }
 
 function calculadoraAgregar(valor) {
